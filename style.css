@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7vh 4.5vw;
+    background-color: #F5F8FD;
+}
+.nav-part1{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+.line1{
+    margin-left: 6vw;
+    /* background-color: aqua; */
+}
+.line1 img{
+    height: 2.2vw;
+}
+.nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.nav-part1 h3{
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.nav-part1 h4{
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.nav-part2 h3{
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.hero-section{
+    height: calc(100% - 100px);
+    background-color: #F5F8FD;
+    padding: 10vh 4.5vw;
+}
+.hero-section h3{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.hero-section h1{
+    font-size: 8vw;
+    font-weight: 500;
+    letter-spacing: -0.5vw;
+    word-spacing: -0.5vw;
+    line-height: 8vw;
+    margin-top: 3vh;
+}
+.case{
+    padding: 6vh 4.5vw;
+    background-color: #F5F8FD;
+}
+.top-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.line{
+    height: 0.3vh;
+    background-color: black;
+    width: 12vw;
+    /* margin-left: 20px; */
+}
+.text1{
+    width: 80%;
+}
+.text1 h3{
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+.text2 h3{
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.5vh 4.5vw;
+    gap: 2.5vw;
+    background-color: #F5F8FD;
+}
+.elems{
+    width: 50%;
+}
+.elem-img{
+    height: 40vw;
+    width: 100%;
+    background-color: #E2E7ED;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(./imgs/sketch-2-768x768.png);
+}
+#img2{
+    background-image: url(./imgs/screen.png);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 0;
+    /* margin: 10px 0; */
+}
+.bottom i{
+    padding: 1.2vw 2.5vw;
+    font-size: 1.8vw;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+.bottom h2{
+    font-size: 2.2vw;
+    font-weight: 600;
+}
+.bottom h4{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: black;
+    opacity: 0.8;
+}
